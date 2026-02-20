@@ -40,7 +40,7 @@ public class Main {
         System.out.println ("Souhaitez-vous jouer avec une IA ou un autre joueur?");
         String UserInput1 = scanner.nextLine ().toLowerCase ();
 
-        if (UserInput1.equals ("ai")) {
+        if (UserInput1.equals ("ia")) {
             AI = true;
             System.out.println ("Mode IA activé");
         } else {
